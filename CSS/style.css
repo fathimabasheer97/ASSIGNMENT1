@@ -36,13 +36,20 @@ margin-bottom: 2%;
     margin-top: 1%;
 }
 #img-ran{
-    margin-right: 1%;
+    margin-right: 2%;
 }
 #img-km{
     margin-left:2% ;
 }
 #img-mnnr{
-    margin-right: 1%;
+    margin-right: 2%;
+}
+#home-cont
+{
+    background-color: white;
+    border: solid white;
+    margin: 5%;
+    padding-bottom: 2%;
 }
 #p2{
     margin-top:4% ;
@@ -52,20 +59,20 @@ margin-bottom: 2%;
     margin-left: 2%;
 }
 #content{
-  margin-right: 38%;
-  padding-left: 1%;
-  padding-right: 2%;
+  margin-right: 40%;
+  margin-left: 1%;
+  padding-left: 1%;;
   text-align: justify;
 }
 #cont-left{
   text-align: justify;
-  margin-right: 1%;
+  margin-right: 2%;
   margin-left: 36%; 
 }
 #cont-rgt{
     margin-right: 35%;
     padding-left: 2%;
-    padding-right: 2%;
+    padding-right: 3%;
     text-align: justify;
 }
 #sidetab{
@@ -116,4 +123,8 @@ body{
 }
 .login-misc{
     padding-top: 1em;
+}
+.myMargin
+{
+    margin-top: 1%;
 }
