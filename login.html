@@ -37,26 +37,28 @@
 <!--Navbar ends here-->
 <div id="sidetab">
   <div class="col-lg-12" myMargin>
-      <form>
+      <form action="index.html">      
           <div class="form-row">
               <div class="form-group col-md-12">
-                <label for="inputEmail4">Username</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Enter your username">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email id">
               </div>
+              <label for="error" id="error"></label>
           </div>
           <div class="form-row">
             <div class="form-group col-md-12">
               <label for="inputEmail4">Password</label>
-              <input type="email" class="form-control" id="inputEmail4" placeholder="Enter your password">
+              <input type="password" class="form-control" name="pwd1" placeholder="Enter your password">
             </div>
           </div>
-          <button type="login" class="btn btn-primary">LOGIN</button>
+          <button value= "check" type="submit" class="btn btn-primary">LOGIN</button>
           <div class="login-misc">
             <h5>Need an Account?</h5>
             <a href="sign-up.html">Sign Up</a>
-        </div>
+          </div>
         </form>
   </div>
 </div>
+<script src="form.js"></script>
 </body>
 </html>

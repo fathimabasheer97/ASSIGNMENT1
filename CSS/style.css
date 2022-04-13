@@ -59,7 +59,7 @@ margin-bottom: 2%;
     margin-left: 2%;
 }
 #content{
-  margin-right: 40%;
+  margin-right: 45%;
   margin-left: 1%;
   padding-left: 1%;;
   text-align: justify;
@@ -67,10 +67,10 @@ margin-bottom: 2%;
 #cont-left{
   text-align: justify;
   margin-right: 2%;
-  margin-left: 36%; 
+  margin-left: 41%; 
 }
 #cont-rgt{
-    margin-right: 35%;
+    margin-right: 38%;
     padding-left: 2%;
     padding-right: 3%;
     text-align: justify;
@@ -78,7 +78,8 @@ margin-bottom: 2%;
 #sidetab{
     float: right;
     height: 15em;
-    margin-top: 4%;
+    width: max-content;
+    margin-top: 1%;
     margin-right: 1%;
     padding: 30px;
     margin-left: 66%;
@@ -127,4 +128,49 @@ body{
 .myMargin
 {
     margin-top: 1%;
+}
+
+input[type=email]:focus,
+input[type=password]:focus,
+input[type=text]:focus{
+    box-shadow: 0 0 5px rgba(246, 8, 110,0.8);
+    border: 1px solid rgba(231, 121, 169, 0.8);
+}
+.control-label {
+    text-align: left !important;
+    padding-bottom: 4px;
+}
+.progress {
+    height: 5px !important;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.show-pass{
+    position: absolute;
+    top:17%;
+    right: 4%;
+}
+.progress-bar-danger {
+    background-color: #e90f10;
+}
+.progress-bar-warning{
+    background-color: #ffad00;
+}
+.progress-bar-success{
+    background-color: #02b502;
+}
+.fa-eye{
+    color: #022255;
+    cursor: pointer;
+}
+.ex-account p a{
+    color: #f6086e;
+    text-decoration: underline;
+}
+.fa-circle{
+    font-size: 6px;  
+}
+.fa-check{
+    color: #02b502;
 }
